@@ -15,10 +15,10 @@ These events indicate unsuccessful login attempts to the system, which may sugge
 
 ## 🔍 Investigation
 
-- **Event ID:** 4625 (Failed Login)
-- **Target Account: bourne
-- **Number of Attempts: 5
-- **Time Frame: within 2 minutes
+- Event ID: 4625 (Failed Login)
+- Target Account: bourne
+- Number of Attempts: 5
+- Time Frame: within 2 minutes
 
 ### Observations:
 - Repeated failed login attempts were recorded in a short period
