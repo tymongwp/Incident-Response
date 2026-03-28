@@ -25,6 +25,14 @@ These events indicate unsuccessful login attempts to the system, which may sugge
 - The activity followed a consistent pattern
 - Indicates possible automated login attempts
 
+ ## 📸 Evidence
+
+The screenshot below shows multiple failed login attempts (Event ID 4625) recorded in Windows Event Viewer. 
+
+The logs indicate repeated authentication failures targeting a specific user account, which is consistent with brute-force attack behavior.
+
+![Failed Logins](Windows Event Viewer Showing Logon Failures.png)
+
 ## 🚨 Conclusion
 
 The observed activity is consistent with a **brute-force attack**, where repeated login attempts are made to gain unauthorized access to the system.
